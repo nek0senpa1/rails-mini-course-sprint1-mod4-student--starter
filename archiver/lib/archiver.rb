@@ -12,7 +12,7 @@ module Archiver
   end
 
   def archived?
-    archived_at.present?
+    archived_at.nil?
   end
 
 
